@@ -60,7 +60,7 @@ void DisparoOfensivo(Do disparoO, DD disparoD, int Vii){
         for(angle = 0;angle < 90;angle++){
             Vxo = Vini*cos(angle*pi/180);
             Vyo = Vini*sin(angle*pi/180);
-            x = 0.0;
+            x = 0.0; //Son redundantes tanto x como y inicializadas en 0.0
             y = 0.0;
             for(t = 0;;t++){ //Cuanto tiempo se demora en hacer dichos impactos
                 x = Vxo*t;
